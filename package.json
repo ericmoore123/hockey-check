@@ -1,0 +1,30 @@
+{
+  "name": "hockey-check",
+  "version": "1.0.0",
+  "description": "Hockey data application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmoore123/hockey-check.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "JavaScript"
+  ],
+  "author": "Eric Moore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericmoore123/hockey-check/issues"
+  },
+  "homepage": "https://github.com/ericmoore123/hockey-check#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
